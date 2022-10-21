@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>ПАСТА</title>
+</head>
+<h4 style="text-align: center;">Макарохи</h4>
+<body>
+{% for ingredient, amount in pa_pasta.items %}
+    <p>{{ ingredient }}: {{ amount }}</p>
+
+{% endfor %}
+</body>
+</html>
