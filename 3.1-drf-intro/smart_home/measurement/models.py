@@ -1,6 +1,5 @@
 from django.db import models
 
-# TODO: опишите модели датчика (Sensor) и измерения (Measurement)
 class Sensor(models.Model):
     name = models.CharField(max_length=50, verbose_name='Датчик')
     about = models.CharField(max_length=250, verbose_name='Какой')
@@ -8,7 +7,6 @@ class Sensor(models.Model):
 
     def __str__(self):
         return self.name
-
 
 
 class Measurement(models.Model):
