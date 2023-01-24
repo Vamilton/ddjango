@@ -2,6 +2,7 @@ from django.conf import settings
 from django.db import models
 
 
+
 class AdvertisementStatusChoices(models.TextChoices):
     """Статусы объявления."""
 
